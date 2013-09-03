@@ -73,7 +73,7 @@
         </section> <!-- end of landingImage -->
 
         <section class="bio">
-            <img src="" alt="">
+            <img src="img/profile.jpg" alt="Dylan John Scott" />
             <h3>Hi!</h3>
             <p>My name is Dylan John Scott, a fine arts graduate cum front end web developer.
  
@@ -168,18 +168,60 @@
 
         <section class="skills">
             
-            <canvas></canvas>
-            <canvas></canvas>
-            <canvas></canvas>
-            <canvas></canvas>
-            <canvas></canvas>
-            <canvas></canvas>
+            <canvas>
+                html5
+            </canvas>
+            <canvas>
+                css3
+            </canvas>
+            <canvas>
+                javascript
+            </canvas>
+            <canvas>
+                PHP
+            </canvas>
+            <canvas>
+                Github
+            </canvas>
+            <canvas>
+                Wordpress
+            </canvas>
 
         </section>
 
         <section class="contact">
             
+                    <form class="contact-form clearfix" action="send-mail.php" method="post">
 
+                        <p id="status"></p>
+                    
+                        <div class="contact-field clearfix">
+
+                            <input type="text" id="name" name="name" placeholder="Name:" />
+
+                        </div>
+
+                        <div class="contact-field clearfix">
+                        
+                            <input type="text" id="email" name="email" placeholder="Email:" />
+
+                        </div>
+
+                        <div class="contact-field clearfix">
+                        
+                            <textarea placeholder="Message:" name="message" id="message" ></textarea>
+
+                        </div>
+
+                        <div class="contact-field">
+
+                            <input type="submit" value="Send" id="send">
+
+                        </div>
+
+                        <input id="spam" class="hidden" name="spam" type="text" value="" />
+
+                    </form>
 
         </section>
 
